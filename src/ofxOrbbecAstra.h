@@ -47,6 +47,7 @@ public:
 	ofShortPixels& getRawDepth();
 	ofImage& getDepthImage();
 	ofImage& getColorImage();
+	vector<ofVec3f>& getPointCloud();
 
 	unordered_map<int32_t,ofVec2f>& getHandsDepth();
 	unordered_map<int32_t,ofVec3f>& getHandsWorld();

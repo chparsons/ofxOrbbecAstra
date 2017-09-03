@@ -249,6 +249,10 @@ ofImage& ofxOrbbecAstra::getColorImage() {
 	return colorImage;
 }
 
+vector<ofVec3f>& ofxOrbbecAstra::getPointCloud() {
+	return cachedCoords;
+}
+
 unordered_map<int32_t,ofVec2f>& ofxOrbbecAstra::getHandsDepth() {
 	return handMapDepth;
 }
